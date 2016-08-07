@@ -1,19 +1,21 @@
 {
   "name": "@nodulus/update",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "typescript": {
     "definition": "index.d.ts"
   },
-  "scripts": {
-    "start": "node ./node_modules/@nodulus/shell/app/js",
+  "scripts": { 
     "test": "mocha tests --recursive"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/nodulusteam/-nodulus-update"
   },
+  "keywords": [
+    "nodulus","auto-update"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
